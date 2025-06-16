@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Question</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Checkpoint: What Do you Know?</h2>
+    <p>Which of these people were <strong>NOT</strong> listed as an inventor?</p>
+    
+    <div class="options">
+      <button onclick="checkAnswer(this)" data-correct="false">Thomas Edison</button>
+      <button onclick="checkAnswer(this)" data-correct="true">J.P. Morgan</button>
+      <button onclick="checkAnswer(this)" data-correct="false">George Stephenson</button>
+      <button onclick="checkAnswer(this)" data-correct="false">Richard Arkwright</button>
+    </div>
+
+    <p id="feedback"></p>
+    <button id="nextBtn" style="display:none;" onclick="window.location.href='page4.html'">Next Page</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

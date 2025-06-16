@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Question 1</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Checkpoint: What Do you Know?</h2>
+    <p>Which gas do you think is most responsible for trapping heat in the Earth's atmosphere?</p>
+    
+    <div class="options">
+      <button onclick="checkAnswer(this)" data-correct="false">Oxygen (O₂)</button>
+      <button onclick="checkAnswer(this)" data-correct="true">Carbon Dioxide (CO₂)</button>
+      <button onclick="checkAnswer(this)" data-correct="false">Nitrogen (N₂)</button>
+      <button onclick="checkAnswer(this)" data-correct="false">Hydrogen (H₂)</button>
+    </div>
+
+    <p id="feedback"></p>
+    <button id="nextBtn" style="display:none;" onclick="window.location.href='page5.html'">Next Page</button>
+  </div>
+
+  <script src="script_gases.js"></script>
+</body>
+</html>
